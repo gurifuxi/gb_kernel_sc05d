@@ -10,14 +10,10 @@ TOP_DIR=$PWD
 export ARCH=arm
 export CROSS_COMPILE=$BUILD_CROSS_COMPILE
 export LOCALVERSION="-$BUILD_LOCALVERSION"
-//export CROSS_COMPILE=arm-eabi-
 cd ..
 CURRENT_DIR=$PWD
 cd -
-//export CROSS_COMPILE_PATH="/opt/toolchains/arm-eabi-4.4.3/bin"
-#export CROSS_COMPILE_PATH="/opt/toolchains/arm-2009q3/bin"
 
-export PATH=$CROSS_COMPILE_PATH:$PATH
 KERNEL_DIR=.
 export KERNEL_DIR
 echo "PATH print"
